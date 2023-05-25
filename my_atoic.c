@@ -2,7 +2,6 @@
 /**
  * interactive - returns true if shell is interactive mode
  * @info: struct address
- *
  * Return: 1 if interactive mode, 0 otherwise
  */
 int interactive(info_t *info)
@@ -39,7 +38,6 @@ int _isalpha(int c)
  * @s: the string to be converted
  * Return: 0 if no numbers in string, converted number otherwise
  */
-
 int _atoi(char *s)
 {
 	int i, sign = 1, flag = 0, output;
